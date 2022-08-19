@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  span {
+    font-size: 80px;
+    top: 30%;
+    font-weight: bold;
+    color: brown;
+  };
+  .textLeft {
+    position: absolute;
+    left: 15%;
+  }
+  .textRight {
+    position: absolute;
+    right: 15%;
+  }
+  .img {
+    width: 1078px;
+  }
+}
+

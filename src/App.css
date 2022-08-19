@@ -1,0 +1,24 @@
+
+body {
+    background: #4c4c4c;
+    overflow: overlay;
+}
+
+.document-width {
+    width: 1078px;
+    margin: 0 auto;
+}
+.Modal {
+    width: 500px!important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%)!important;
+}
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rebeccapurple;
+}

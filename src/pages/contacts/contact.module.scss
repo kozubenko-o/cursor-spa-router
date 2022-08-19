@@ -1,0 +1,46 @@
+.contact {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  min-width: 300px;
+  cursor: pointer;
+  .photo {
+    float: left;
+    margin-top: 6%;
+  }
+  .gender {
+    width: 25px;
+    float: left;
+    margin-top: 20%;
+  }
+  .name {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-style: italic;
+  }
+  .number {
+    font-family: Luminari, cursive;
+  }
+}
+.content {
+  .img {
+    float: left;
+    width: 25%;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+
+  }
+}
+.btn-close {;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  border-radius: 5px;
+}

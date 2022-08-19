@@ -1,0 +1,64 @@
+.container {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  color: white;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+::placeholder {
+  padding-left: 10px;
+  transition: text-indent 1000ms;
+}
+:focus::placeholder {
+  text-indent: 500px;
+}
+.search {
+  min-width: 300px;
+  min-height: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.search:focus {
+  background: #cff7f9;
+}
+.img-gender {
+  width: 25px;
+}
+.input-gender {
+  width: 30px;
+  height: 30px;
+}
+.checkbox {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
