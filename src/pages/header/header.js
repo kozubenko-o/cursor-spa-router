@@ -6,19 +6,19 @@ export default class Header extends Component {
     links = [
         {
             name: "Home",
-            link: "/"
+            link: "cursor-spa-router/"
         },
         {
             name: "Publication",
-            link: "publication"
+            link: "cursor-spa-router/publication"
         },
         {
             name: "Photos",
-            link: "photos"
+            link: "cursor-spa-router/photos"
         },
         {
             name: "Contacts",
-            link: "contacts"
+            link: "cursor-spa-router/contacts"
         }
     ]
     render() {

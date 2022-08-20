@@ -14,11 +14,11 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<Main />}/>
-                <Route path="publication" element={<Publication />}/>
-                <Route path="photos" element={<Photo />}/>
-                <Route path="contacts" element={<Contacts />}/>
-                <Route path="contact/:id" element={<Contact />}/>
+                <Route path="cursor-spa-router/" element={<Main />}/>
+                <Route path="cursor-spa-router/publication" element={<Publication />}/>
+                <Route path="cursor-spa-router/photos" element={<Photo />}/>
+                <Route path="cursor-spa-router/contacts" element={<Contacts />}/>
+                <Route path="cursor-spa-router/contact/:id" element={<Contact />}/>
             </Routes>
         </BrowserRouter>
       </div>
